@@ -21,7 +21,7 @@ function App() {
       <div className="font-bold gap-12 text-5xl">
         {count}
       </div>
-      <button onClick={increasehandler} className=" border-r-2 text-center text-5xl w-20 border-[#bfbfbf]">+</button>
+      <button onClick={increasehandler} className=" border-l-2 text-center text-5xl w-20 border-[#bfbfbf]">+</button>
       
     </div>
     <button onClick={resethandler} className="bg-[#0398d4] text-white px-5 py-2 rounded-sm">reset</button>
